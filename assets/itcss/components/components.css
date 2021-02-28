@@ -1,0 +1,29 @@
+a:hover {
+	text-decoration: underline;
+}
+.card__title {
+	font-family: 'Raleway';
+	font-size: 30px;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+.card__link {
+	line-height: 28px;
+	color: #6D6D6D;
+	margin-bottom: 20px;
+}
+.button:hover {
+	background: #2c2899;
+	text-decoration: none;
+}
+.button--absolute {
+	position: absolute;
+	right: 20px;
+	bottom: -25px;
+}
+.button--green {
+	background: #7b7b;
+}
+.button--green:hover {
+	background: red;
+}
