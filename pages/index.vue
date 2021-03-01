@@ -1,12 +1,8 @@
 <template>
   <div class="container">
-  <!-- bloques,elementos, modificares -->
-  <!-- bloques componentes de nuestro sitio que queremos reutizar en otra parte -->
-  <!-- elementos forman parte del bloque y no significan nada por si solos -->
-  <!-- podemos usar bloques dentro de bloques -->
 	<div class="container">
-		<div class="card">   <!-- bloque -->
-      <a href="" class="card__thumbnail"> <!-- elemento de la card -->
+		<div class="card"> 
+      <a href="" class="card__thumbnail"> 
          <img class="card__img" src="@/assets/img/1.jpg" alt="">
       </a>
       <div class="card__text">
@@ -14,7 +10,7 @@
           <a href="#" class="card__link">Lorem ipsum dolor, sit amet consectetur </a>
           <p class="card__content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, excepturi! Sed maxime accusantium harum hic aliquid dolorum nostrum quasi asperiores quas officiis illo impedit blanditiis dolores vel, corrupti pariatur dicta.</p>
           
-          <a href="" role="button" class="button button--absolute"> <!-- nuevo bloque bloque  y modificador -->
+          <a href="" role="button" class="button button--absolute">
             <span>Ver Más</span> 
             <i class="button_icon fas fa-arrow-right"></i>
           </a>
